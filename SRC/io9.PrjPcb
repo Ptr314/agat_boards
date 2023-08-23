@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=СНП
 
 [Preferences]
 PrefsVaultGUID=
@@ -66,7 +67,24 @@ GenerateClassCluster=0
 DocumentUniqueId=ZAIOVWYG
 
 [Document2]
-DocumentPath=io9.PcbDoc
+DocumentPath=io9_snp.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PBWSENTW
+
+[Document3]
+DocumentPath=io9_idc.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -82,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VMWRSMGR
 
-[Document3]
+[Document4]
 DocumentPath=Agat.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UMWKINGX
 
-[Document4]
+[Document5]
 DocumentPath=Agat.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QMOWRMGK
 
-[Document5]
+[Document6]
 DocumentPath=io9.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -132,6 +150,35 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueID=FA87D33C-0EDF-425C-A88D-E63D83B1BC97
+Description=СНП
+AllowFabrication=1
+ParameterCount=0
+VariationCount=4
+Variation1=Designator=X3|UniqueId=\JQJXGAIK|Kind=1|AlternatePart= 
+Variation2=Designator=RR1|UniqueId=\LIQLZDNB|Kind=1|AlternatePart= 
+Variation3=Designator=X4|UniqueId=\UNJXQEBU|Kind=1|AlternatePart= 
+Variation4=Designator=DS1|UniqueId=\EZFVFFOY|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=7CF84CFA-3482-4D1C-BF99-B58005677847
+Description=IDC
+AllowFabrication=1
+ParameterCount=0
+VariationCount=9
+Variation1=Designator=X2|UniqueId=\FRMJDODO|Kind=1|AlternatePart= 
+Variation2=Designator=R1|UniqueId=\AVDGLOCW|Kind=1|AlternatePart= 
+Variation3=Designator=R8|UniqueId=\OCYSRQIP|Kind=1|AlternatePart= 
+Variation4=Designator=R7|UniqueId=\DZHYKXVT|Kind=1|AlternatePart= 
+Variation5=Designator=R6|UniqueId=\INZBAAKC|Kind=1|AlternatePart= 
+Variation6=Designator=R5|UniqueId=\YIAQPKZX|Kind=1|AlternatePart= 
+Variation7=Designator=R4|UniqueId=\BZBJKWHE|Kind=1|AlternatePart= 
+Variation8=Designator=R3|UniqueId=\GDPQEPGZ|Kind=1|AlternatePart= 
+Variation9=Designator=R2|UniqueId=\NBETGJIO|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [Configuration1]
 Name=Sources
@@ -450,6 +497,20 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Designator=195|Description=120|Comment=120|Quantity=120
+Configuration1_Name7=VisibleOrder_Flat
+Configuration1_Item7=Designator=195|Description=120|Comment=120|Quantity=120
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
