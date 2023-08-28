@@ -9,7 +9,7 @@
 <center><img src="fabrication/Agat_Cell_121_3D.png" height=300></center>
 
 * [Страница на сайте](http://agatcomp.ru/agat/Hardware/GenPlat/j121.shtml)
-* [Тестовое описание](docs/121_описание.pdf)
+* [Текстовое описание](docs/121_описание.pdf)
 * [Документация на реплику (PDF)](fabrication/Agat_Cell_121_E3.PDF)
 * [Gerber-файлы](fabrication/Cell_121_Gerbers)
 
@@ -23,6 +23,7 @@
 * [Страница на сайте](http://agatcomp.ru/agat/Hardware/IO/io9.shtml)
 * [Документация на реплику, (копия, PDF)](fabrication/Agat_IO9_(SNP)_E3.PDF)
 * [Gerber-файлы (копия)](fabrication/IO9_SNP_Gerbers)
-* [Документация на реплику, (модификация, PDF)](fabrication/Agat_IO9_(IDC)_E3.PDF)
-* [Gerber-файлы (модификация)](fabrication/IO9_IDC_Gerbers)
+* [Документация на реплику, (укороченный, PDF)](fabrication/Agat_IO9_(IDC)_E3.PDF)
+* [Gerber-файлы (укороченный)](fabrication/IO9_IDC_Gerbers)
+  * Примечание: При подключени принтера к DB25 необходимо установить перемычку DS1.
 * 3D-модель разъема СНП взята из проектов [Олега Одинцова](https://sourceforge.net/projects/agat-hardware/).
