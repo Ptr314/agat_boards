@@ -35,4 +35,4 @@
 <center><img src="fabrication/IO_3D.png" height=300></center>
 
 * [Страница на сайте](http://agatcomp.ru/agat/Hardware/Net/net_swt.shtml)
-* [Принципиальная схема (PDF)](fabrication/IO_Cell.PDF)
+* [Принципиальная схема (PDF)](fabrication/IO_cell.PDF)
