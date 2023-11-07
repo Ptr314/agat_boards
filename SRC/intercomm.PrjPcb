@@ -117,23 +117,6 @@ GenerateClassCluster=0
 DocumentUniqueId=VZUPHMWQ
 
 [Document5]
-DocumentPath=Intercomm_sheet_2.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WUFVXGUE
-
-[Document6]
 DocumentPath=Intercomm_sheet_3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -149,6 +132,46 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=THLTPKNY
+
+[Parameter1]
+Name=Letter1Column
+Value=T
+
+[Parameter2]
+Name=Title2Str
+Value=Ячейка межмашинного обмена
+
+[Parameter3]
+Name=Title
+Value=Персональная ЭВМ «Агат»
+
+[Parameter4]
+Name=DocumetType
+Value=Схема электрическая принципиальная
+
+[Parameter5]
+Name=DocumentType
+Value=Схема электрическая принципиальная
+
+[Parameter6]
+Name=DocumentNumber
+Value=АГАТ.000003.001 Э3
+
+[Parameter7]
+Name=CompanyName
+Value=agatcomp.ru
+
+[Parameter8]
+Name=CheckedBy
+Value=emuverse.ru
+
+[Parameter9]
+Name=Author
+Value=Panther
+
+[Parameter10]
+Name=ApprovedBy
+Value=v0.1
 
 [Configuration1]
 Name=Sources

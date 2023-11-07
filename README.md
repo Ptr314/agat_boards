@@ -27,3 +27,12 @@
 * [Gerber-файлы (укороченный)](fabrication/IO9_IDC_Gerbers)
   * Примечание: При подключени принтера к DB25 необходимо установить перемычку DS1.
 * 3D-модель разъема СНП взята из проектов [Олега Одинцова](https://sourceforge.net/projects/agat-hardware/).
+
+## Ячейка межмашинного обмена
+
+Служит для стыковки ПЭВМ с модемом и организациии локальной сети. Выполнен только обратный инжиниринг схемы, плата под повторение не дорабатывалась.
+
+<center><img src="fabrication/IO_3D.png" height=300></center>
+
+* [Страница на сайте](http://agatcomp.ru/agat/Hardware/Net/net_swt.shtml)
+* [Принципиальная схема (PDF)](fabrication/IO_Cell.PDF)
