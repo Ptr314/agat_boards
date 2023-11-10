@@ -151,16 +151,16 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=Letter1Column
-Value=T
-
-[Parameter2]
 Name=Title2Str
 Value=Ячейка межмашинного обмена
 
-[Parameter3]
+[Parameter2]
 Name=Title
 Value=Персональная ЭВМ «Агат»
+
+[Parameter3]
+Name=Letter1Column
+Value=T
 
 [Parameter4]
 Name=DocumetType
@@ -188,7 +188,7 @@ Value=Panther
 
 [Parameter10]
 Name=ApprovedBy
-Value=v0.1
+Value=v0.2
 
 [Configuration1]
 Name=Sources
